@@ -5,14 +5,34 @@ h1{
 p{
     color: rgb(122, 197, 197);
 }
-/*
-img{
-    background-color: red;
+
+img:hover{
+    background-color: rgb(175, 207, 226);
 }
-*/
+
 .bacon{
     background-color: beige;
 }
 .handsign{
     background-color: azure;
+}
+.circular{
+    border-radius: 200px;
+}
+.yesbtn
+{
+    width: 10em;
+    height: 5ex;
+    background-image: linear-gradient(135deg, #f34079 40%, #fc894d);
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+.yesbtn:active {
+    box-shadow: 2px 2px 5px #fc894d;
+}
+#heading{
+    color: cornflowerblue;
 }
