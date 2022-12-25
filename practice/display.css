@@ -2,14 +2,34 @@
     height: 200px;
     width:200px;
     background-color: red;
+    position: absolute;
+   top: 0px;
+    left: 400px;
+    
 }
 .blue{
     height: 200px;
     width:200px;
     background-color: blue;
+    position: absolute;
+  top: 0px;
+    left: 200px;
+    
 }
 .yellow{
     height: 200px;
     width:200px;
     background-color: yellow;
+    position: fixed;
+    top: 0px;
+}
+.parent-container
+{
+    background-color: grey;
+    height: 600px;
+    width: 600px;
+    position: relative;
+}
+body{
+    margin: 0px;
 }
