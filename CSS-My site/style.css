@@ -13,9 +13,10 @@ h2{
 }
 h3{
     font-family: 'Montserrat', sans-serif;
+    color: #685086;
 }
 .top-container{
-    background-color:#DEBACE;
+    background-color:#F7C8E0;
     position: relative;
     padding-top: 6%;
 }
@@ -41,4 +42,24 @@ h3{
 }
 .circular{
     border-radius: 100px;
+}
+.middle-section{
+    margin-top: 10px;
+}
+.coding-img{
+    width: 40%;
+    float: left;
+    margin-right: 30px;
+}
+.guitar
+{
+    width: 40%;
+    float: right;
+    margin-left: 30px;
+} 
+.skill-row{
+    width: 60%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
 }
