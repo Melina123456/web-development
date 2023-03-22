@@ -32,12 +32,21 @@ hr{
     width: 3%;
     margin: 100px auto;
 }
+a{
+    color: #ba5ca9;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+a:hover{
+    color: #b07de3;
+}
 .intro{
     width: 30%;
     margin: auto;
 }
 .top-container{
-    background-color:#F7C8E0;
+    background-color:#e1c3d3;
     position: relative;
     padding-top: 6%;
 }
@@ -48,11 +57,11 @@ hr{
     background-color:#BA94D1;
     margin: 100px 0px;
 }
-.bottom-container
+.bottom-section
 {
-    height: 200px;
-    width: 200px;
-    background-color: #7F669D;
+    margin-top: 100px;
+    background-color: #e1c3d3;
+    padding: 50px 0px 20px;
 }
 .bottom-cloud{
     position: absolute;
@@ -93,6 +102,12 @@ hr{
 .contact-message{
     width: 30%;
     margin: 40px auto 60px;
+}
+.copyright{
+    color: #ba5ca9;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.75rem;
+    padding: 20px 0px;
 }
 .btn {
         background: #d17dd1;
