@@ -1,0 +1,17 @@
+#SideNav{
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    right: 0;
+    top: 0;
+    background:#443C68;
+    z-index: 2;
+}
+nav, ul, li{
+    list-style: none;
+    margin: 50px 0px;
+}
+nav, ul, li, a{
+    text-decoration: none;
+    color: aliceblue;
+}
