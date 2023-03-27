@@ -4,8 +4,9 @@
     position: fixed;
     right: 0;
     top: 0;
-    background:#443C68;
+    background:#9994ae;
     z-index: 2;
+    transition: 0.5s;
 }
 nav, ul, li{
     list-style: none;
@@ -14,4 +15,20 @@ nav, ul, li{
 nav, ul, li, a{
     text-decoration: none;
     color: aliceblue;
+}
+#menubtn{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(203, 199, 206);
+    text-align: center;
+    position: fixed;
+    right: 30px;
+    top: 20px;
+    border-radius: 50px;
+    z-index: 3;
+    cursor: pointer;
+}
+#menubtn img{
+    width: 25px;
+    margin-top: 14px;
 }

@@ -13,11 +13,32 @@
             <ul>
                 <li><a href="#">HOME</a></li>
                 <li><a href="#">ABOUT US</a></li>
-                <li><a href="#">SERVICES</a></li>
-                <li><a href="#">QUESTIONS</a></li>
+                <li><a href="#">PRACTICE</a></li>
+                <li><a href="#">CONTRIBUTE</a></li>
                 <li><a href="#">REVIEWS</a></li>
             </ul>
         </nav>
     </div>
+    <div id="menubtn">
+        <img src="images/menubtn1.png" id="menu">
+    </div>
+
+    <script>
+        var menubtn = document.getElementById("menubtn")
+        var SideNav = document.getElementById("SideNav")
+        var menu = document.getElementById("menu")
+
+        SideNav.style.right ="-250px";
+
+        menubtn.onclick = function(){
+            if(SideNav.style.right == "-250px")
+            {
+                SideNav.style.right == "0";
+            }
+            else{
+                SideNav.style.right="-250px";
+            }
+        }
+    </script>
 </body>
 </html>
